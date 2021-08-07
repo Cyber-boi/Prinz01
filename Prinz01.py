@@ -1,8 +1,5 @@
-import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
-    from multiprocessing.pool import ThreadPool
-except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 Prinz.py")
+    os.system("python2 Prinz01.py")
 os.system("clear")
 """
 try:
@@ -446,7 +443,6 @@ def b_menu_select():
 		except:
 			pass
 		
-	p = ThreadPool(30)
 	p.map(main, id)
 	print (" ")
 	print (47*"-")
