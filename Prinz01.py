@@ -2,7 +2,7 @@ import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cook
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 Prinz01.py")
+    os.system("python2 Prinz.py")
 os.system("clear")
 """
 try:
